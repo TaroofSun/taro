@@ -1,4 +1,4 @@
-package org.mding.gym.utils.view;
+package taro.com.circlebartest;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,8 +11,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
 import android.view.View;
-
-import org.mding.gym.R;
 
 import java.text.DecimalFormat;
 

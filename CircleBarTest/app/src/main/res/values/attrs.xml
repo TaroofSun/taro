@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleBar">
+        <attr name="barColor" format="color"></attr>
+        <attr name="barHintColor" format="color"></attr>
+        <attr name="barTextColor" format="color"></attr>
+        <attr name="barProgress" format="float"></attr>
+        <attr name="barMax" format="float"></attr>
+        <attr name="barTextSize" format="dimension"></attr>
+        <attr name="barWidth" format="dimension"></attr>
+        <attr name="barPadding" format="dimension"></attr>
+        <attr name="barText" format="string"></attr>
+        <attr name="barBackGroundColor" format="color"></attr>
+        <attr name="duration" format="integer"></attr>
+    </declare-styleable>
+</resources>

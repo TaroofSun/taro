@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="taro.com.circlebartest.MainActivity">
+
+    <taro.com.circlebartest.CircleBar
+        android:id="@+id/circleBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        app:barHintColor="#7876f2"
+        app:barTextSize="13sp"
+        app:barWidth="3dp"
+        app:barTextColor="#000"
+        app:barColor="?colorPrimary"
+        app:barPadding="5dp"
+        app:barText="0.0"
+        app:barMax="1"
+        app:barProgress="0.5" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="改变数据"
+        android:onClick="changeData"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="改变颜色"
+        android:onClick="changeColor"/>
+</LinearLayout>
